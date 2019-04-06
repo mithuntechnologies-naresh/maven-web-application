@@ -13,7 +13,7 @@ public class HelloWorldController {
 		public String hello(ModelMap model) {
 
 			model.addAttribute("name", " Hello World!");
-			return "home";
+			return "home"
 
 		}
 		
