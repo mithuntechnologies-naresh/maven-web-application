@@ -86,7 +86,8 @@
 
 	</dependencies>
 	
-	<distributionManagement>
+	<!--
+<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
@@ -99,7 +100,8 @@
 	    </snapshotRepository>
 	</distributionManagement>
 	
-	<build>
+--
+ <build>
 		<finalName>maven-web-application</finalName>
 		<plugins>
 			<plugin>
